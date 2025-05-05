@@ -1,10 +1,9 @@
-
-from utils.database import init_database
-from utils.security import get_security_key_from_image
-from interface.animations import opening_animation
-from core.user import User
+from FinanceTracker.core.database import init_database
+from FinanceTracker.utils.security import get_security_key_from_image
+from FinanceTracker.interface.animations import opening_animation
+from FinanceTracker.core.user import User
 import sqlite3
-from utils.database import DB_PATH
+from FinanceTracker.core.database import DB_PATH
 
 def create_user():
     print("\n🧍 New user detected!")

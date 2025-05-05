@@ -1,5 +1,5 @@
-from interface.cli import launch_cli
-from core.session import init_app_session
+from FinanceTracker.interface.cli import launch_cli
+from FinanceTracker.core.session import init_app_session
 
 def main():
     user = init_app_session()

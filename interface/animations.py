@@ -1,8 +1,13 @@
-
 import sys
 import os
 import time
 import random
+
+try:
+    import colorama
+    colorama.init()
+except ImportError:
+    pass  # colorama não disponível, mas ANSI codes ainda podem funcionar no Linux
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')

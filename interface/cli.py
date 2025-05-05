@@ -1,6 +1,5 @@
-
-from core.balance import get_balance, set_balance, add_to_balance, subtract_from_balance, format_brl
-from interface.animations import clear_screen, print_frame, print_menu, menu_transition, color
+from FinanceTracker.core.balance import get_balance, set_balance, add_to_balance, subtract_from_balance, format_brl
+from FinanceTracker.interface.animations import clear_screen, print_frame, print_menu, menu_transition, color
 
 def launch_cli(user):
     while True:
